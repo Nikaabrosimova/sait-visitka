@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>сайт-визитка</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header class="header">
+	<div class="container container_header">
+		<img class="logo" src="img/img.png">
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a href="hero-block">Главная</a>
+				</li>
+				<li class="nav__item"><a href="#hero-block"> Об авторе </a>
+				</li>
+				<li class="nav__item"><a href="#about">Видео</a>
+				</li>
+				<li class="nav__item"><a href="#gallery">Галерея</a>
+				</li>
+			</ul>
+
+		</nav>
+	</div>
+</header>
+<main class="main">
+	<section class="hero-block" id="hero-block">
+	<div class="container container_hero-block">
+	<img class="hero-block__img" src="img/img1.png">/
+	<div class="hero-block__content">
+		<h1 class="hero-block__title">Винсет Ван Гог</h1>
+			<a class="hero-block__link" href="#">Галерея</a>
+		</h1>
+	</div>
+</section>
+<section class="about" id="about">
+	<div class="container container_about">
+		<h2 class="about__title">Об авторе</h2>
+		<div class="about__content">
+			<p class="about__text">Родился на юге Нидерландов, недалеко от бельгийской границы. Отцом Винсента был Теодор Ван Гог, родившийся 8 февраля 1822 года, пастор реформатской церкви, а матерью — Анна Корнелия Карбентус, дочь почтенного переплётчика и продавца книг из Гааги.</p>
+			<img src="img/img-group.png" class="about__img">
+		</div>
+	</div>
+</section>
+<section class="video" id="video">
+	<div class="container container_video">
+		<h2 class="video__title">Видео</h2>
+		<iframe class="video__video" src="https://www.youtube.com/embed/xj1kG4FY6Vc?si=jcvJFANWqLPEBdgz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	</div>
+</section>
+ <section class="gallery" id="gallery">
+ 	<h2 class="gallery__title">Галерея</h2>
+ 	<ul class="gallery__list">
+ 		<li class="gallery__item">
+ 			<a href="img/image1.png" class="lightzoom gallery__link">
+ 				<img class="gallery__img"src="img/image1.png">
+ 			</a>
+ 		</li>
+ 		<li class="gallery__item">
+ 			<a href="img/image2.png" class="lightzoom gallery__link">
+ 				<img class="gallery__img"src="img/image2.png">		
+ 			</a>
+ 		</li>
+ 		<li class="gallery__item">
+ 			<a href="img/image3.png" class="lightzoom gallery__link">
+ 				<img class="gallery__img"src="img/image3.png">
+ 			</a>
+ 		</li>
+ 		<li class="gallery__item">
+ 			<a href="img/image4.png" class="lightzoom gallery__link">
+ 				<img class="gallery__img"src="img/image4.png">	
+ 			</a>
+ 		</li>
+ 	</ul>
+ </section>     
+</main>
+<footer class="footer" id="footer">
+	<div class="container container_footer">
+		<div class="footer__content">
+			<h3 class="footer__title">Абросимова Ника</h3>
+			<p class="footer__text">&copy; 2023.Не все прова защищены </p>
+		</div>
+		<ul class="footer__list">
+			<li class="footer__item">
+				<a class="footer__link" href="@bl_nika" target=_blank>
+					<img class="footer__img" src="img/telegram.png"></img>
+				</a>
+			</li>
+			<li class="footer__item">
+				<a class="footer__link" href="https://vk.com/bl_nika" target=_blank>
+					<img class="footer__img" src="img/vk.png"></img>
+				</a>
+			</li>
+		</ul>
+	</div>
+</footer>
+   
+
+   <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+   <script type="text/javascript">
+jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+</script>
+</body>
+</html>
