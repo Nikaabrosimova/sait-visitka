@@ -170,4 +170,7 @@ justify-content: space-between;
  .footer__item:not(:last-child){
  	margin-right: 40px;
  }
- 
+ .nav__link{
+ 	text-decoration: none;
+ 	color:#FFF;
+ }
